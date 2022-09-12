@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: hrmstepdefinations.RunnerTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 89.779 s <<< FAILURE! - in hrmstepdefinations.RunnerTest
+Test HRM APP.forcefully making failed  Time elapsed: 5.336 s  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at hrmstepdefinations.ActionPage.verifyoutput(ActionPage.java:156)
+	at ✽.verifyoutput(file:///D:/core%20java/OrangeHRM2/src/test/resources/hrm/hrmapp.feature:51)
+
+Test HRM APP.forcefully making failed 2  Time elapsed: 5.127 s  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at hrmstepdefinations.ActionPage.verifyoutput(ActionPage.java:156)
+	at ✽.verifyoutput(file:///D:/core%20java/OrangeHRM2/src/test/resources/hrm/hrmapp.feature:53)
+
